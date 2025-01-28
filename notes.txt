@@ -1,0 +1,17 @@
+To Do:
+-When clicking the projects button is there a way to 'scroll' to the section 
+instead of automatically jumping there
+-About me
+    *-add photo
+    -make font bigger
+    -add socials?
+    -maybe a skills section between about me and project section?
+-projects   
+    -add descriptions
+    -add links
+    -add pictures
+    -if no link then add popup 'coming soon' message 
+-contact me 
+    -make functional if possible
+    -round out button
+    -make background of text box dark purple when typed in

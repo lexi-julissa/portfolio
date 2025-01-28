@@ -31,20 +31,73 @@
     </section>
 
     <section id="about" class="section about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Alexia Cervantes, a passionate developer with a strong foundation in front-end and full-stack development. 
-            I hold a B.S. in Business Administration, specializing in Information Systems, and I love bringing creative ideas to life through technology. 
-            My expertise includes HTML, CSS, JavaScript, and C#, and I enjoy designing intuitive, user-friendly web experiences. 
-            Whether it's building sleek interfaces, optimizing website performance, or solving complex coding challenges, I'm always eager to innovate and refine my skills.
-        </p> <br>   
-        <p>I've worked on a variety of projects, from developing web applications to troubleshooting technical issues, and I'm continually expanding my portfolio. 
-            Currently, I'm focused on enhancing my skills in modern frameworks and best coding practices. 
-            Outside of coding, I enjoy reading, gaming, and working on creative side projects. 
-            Let's connect and build something amazing!
-        </p>
-        
+        <div class="about-container">
+            <img src="/images/alexia.jpg" alt="Alexia Cervantes" class="about-img">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi! I'm Alexia Cervantes, a passionate developer with a strong foundation in front-end and full-stack development. 
+                    I hold a B.S. in Business Administration, specializing in Information Systems, and I love bringing creative ideas to life through technology. 
+                    My expertise includes HTML, CSS, JavaScript, and C#, and I enjoy designing intuitive, user-friendly web experiences. 
+                    Whether it's building sleek interfaces, optimizing website performance, or solving complex coding challenges, I'm always eager to innovate and refine my skills.
+                </p> <br>   
+                <p>I've worked on a variety of projects, from developing web applications to troubleshooting technical issues, and I'm continually expanding my portfolio. 
+                    Currently, I'm focused on enhancing my skills in modern frameworks and best coding practices. 
+                    Outside of coding, I enjoy reading, gaming, and working on creative side projects. 
+                    Let's connect and build something amazing!
+                </p>
+            </div>
+        </div>
     </section>
 
+    <section class="socials">
+        <h2>Connect With Me</h2>
+        <div class="social-icons">
+            <a href="https://github.com/yourusername" target="_blank">
+                <img src="images/github-icon.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+                <img src="images/linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter">
+            </a>
+            
+        </div>
+    </section>
+   
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="icons/html.png" alt="HTML">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASBJREFUSEvVldGNwjAQRIdOjkqASoBKgEqASoBKoBPgSRm0kr2JEwmh28/I3ueZ8TozfblmX+6vnwDukv4mKntImse9NQUXScuJgKuk1RDgKGkzEXCStB0DOLxhyO4r7Nx1C1i/HwJwelRQ+NkCIDdqNAA/8ZVTLRIZKPClwB5s+lQtZAImaMobWnPxgUYDgGZXdx1uXROARqmnFZuwzyEXmWWT/OwaEXAW8rnzO9pX9MsAnmaakwMW+ZQWYTs8mMUUs3AI4MmMwRtgOyYBsk0OG7Cts9rimehTEH3Fotgw5hyHsngmWgFuCITi5LVrW0xxHyBevWSAi8+jAMwC8nke4lNQg2HNLbOx9Y+GJZ5YgDRlDmxbqrIV0GpTse7/A14igkcZCy+5LQAAAABJRU5ErkJggg=="/>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="icons/css.png" alt="CSS">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAO5JREFUSEvtltsNwjAMRW83gUlgE2ASYBLEJHQT2AR6JFuCKorrlkh84J9EefjYt4nTTo2ta+xfJcBW0lESbc3Ow+QpCrAEuEtaRRttPoSUAM8JznFMllgVMhfAPuQJIUsARB9ClgJCyDcAY8iHz7mA2jn4A8Jb8lsSPeym0l4kHSTRvw21qrc5xt/rVioDygDmN3Zt/b0k+rS7Ue1KAYh4Y44AETVjXm0JgMLoAbAmBXCHSADoahIhi/fJgEzcUgDfhO6lEl4anwUIz2Ymg8yDMwaTER+/rJeNojcaT33V3JkfW9oqICNHuLb5X8UL2gQ4GZkf/F4AAAAASUVORK5CYII="/>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="icons/javascript.png" alt="JavaScript">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAM5JREFUSEvtld0NgjAUhQ+byCTqJOIk6iTKJI6iTqL9knsM8aWWFPSBJqTJTTl/91IaTbyaifE1O8GzkqO38E8HC4ETXiLKztr/RrQP7efYT5Iu6VlJosbOGu2gDZBrAEMI6F3SRhL1agSAo56PEwKrr0YAuB0cEkk3aH2ViMCjB8cArh6RBRNPH0Q0GidFDlDJ2iUgmgwAQMN4HBduiOtrAtRto4lWzKTQUI+o69RuY6bIEfDuOsbRoChnPUL57y+77CVTemD2f3KpwOz5F6WpNRlCNHD+AAAAAElFTkSuQmCC"/>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="icons/csharp.png" alt="C#">
+                <p>C#</p>
+            </div>
+            <div class="skill">
+                <img src="icons/wordpress.png" alt="WordPress">
+                <p>WordPress</p>
+            </div>
+            <div class="skill">
+                <img src="icons/database.png" alt="Databases">
+                <p>Databases</p>
+            </div>
+        </div>
+    </section>
+    
     <section id="projects" class="section projects">
         <h2>Projects</h2>
         <br>
