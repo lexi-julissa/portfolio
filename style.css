@@ -131,18 +131,24 @@ nav ul li a:hover {
 
 .about-text {
     flex: 1; /* Allows text to take remaining space */
-    text-align: left;
+    font-size: large;
+    text-align: center;
 }
 
-.about h2 {
-    font-size: 2.5rem;
+h2 {
+    font-size: xxx-large;
     margin-bottom: 10px;
 }
-
+.about {
+    padding-bottom: 5px; /* Reduce bottom padding */
+    margin-bottom: 0; /* Ensure no extra margin */
+}
 .socials {
     text-align: center;
     background-color: #1a1a1a;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
+    padding-top: 5px; /* Reduce top padding */
+    margin-top: -350px; /* Ensure no extra margin */
     color: #d3d3d3;
 }
 
@@ -175,13 +181,26 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
+.social-icons svg {
+    stroke: #591da7; /* Purple color */
+    width: 32px; /* Adjust size as needed */
+    height: 32px;
+    transition: stroke 0.3s ease; /* Smooth transition */
+    margin-top: 5px;
+}
+
+.social-icons a:hover svg {
+    stroke: #9b72cf; /* Lighter purple on hover */
+}
+
+
 
 .skills {
     background-color: #1a1a1a;
     color: #d3d3d3;
     text-align: center;
     padding: 0px 20px; /* Remove top padding */
-    margin-top: 0px; /* Pull the section up more */
+    margin-top: -350px; /* Pull the section up more */
 }
 
 
@@ -225,6 +244,9 @@ nav ul li a:hover {
 .about, .projects, .contact {
     background-color: #1a1a1a;
     color: #d3d3d3;
+}
+.projects{
+    margin-top: -550px; /* Pull the section up more */
 }
 
 .project-grid {
