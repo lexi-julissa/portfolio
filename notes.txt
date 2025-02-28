@@ -3,9 +3,9 @@ To Do:
 instead of automatically jumping there
 -About me
     *-add photo - not sure if i want to change it
-    -make font bigger
-    -add socials?
-    -maybe a skills section between about me and project section?
+    *-make font bigger
+    *-add socials?
+    *-maybe a skills section between about me and project section?
 -connect with me
     -add icons and links
 -skills
@@ -15,7 +15,8 @@ instead of automatically jumping there
     -add links
     -add pictures
     -if no link then add popup 'coming soon' message 
-    -make into a carousel
+    -make into a carousel?
+        -have one centered and the others blurred
 -contact me 
     -make functional if possible
     -round out button
