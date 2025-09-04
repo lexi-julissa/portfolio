@@ -1,3 +1,10 @@
+html, body {
+  overflow-x: hidden;
+} /*band aid*/
+
+html{
+    scroll-behavior: smooth;
+}/*smooth to the next section instead of jumping*/
 * {
     margin: 0;
     padding: 0;
@@ -73,8 +80,13 @@ nav ul li a:hover {
 }
 .container{
     text-align: center;
-    width: 700px; /* Increased width */
-    height: 300px; /* Increased height */
+    /* width: 700px; /* Increased width 
+    height: 300px; Increased height */
+
+    max-width: 700px; /* sets a cap */
+    width: 90%;       /* shrinks on smaller screens */
+    margin: 0 auto;   /* center it */
+
     background: rgba(54, 1, 75, 0.2);
     backdrop-filter: blur(5px);
     border: 2px solid rgba(1, 0, 3, 0.2);
@@ -122,10 +134,18 @@ nav ul li a:hover {
 }
 
 .about-img {
-    width: 300px; /* Adjust image size */
+    /* width: 300px; /* Adjust image size 
     height: 300px;
     object-fit: cover;
-    border-radius: 50%; /* Circular image */
+    border-radius: 50%; Circular image */
+
+    width: 100%;        /* default size */
+    max-width: 300px;     /* don’t let it overflow */
+    height: auto;        /* keeps proportions */
+    aspect-ratio: 1/1;  /* forces it to stay square */
+    border-radius: 50%;
+    object-fit: cover;
+
     border: 2px solid #8a2be2; /* Add a border if desired */
 }
 
@@ -200,7 +220,7 @@ h2 {
     color: #d3d3d3;
     text-align: center;
     padding: 0px 20px; /* Remove top padding */
-    margin-top: -350px; /* Pull the section up more */
+    /* margin-top: -350px; Pull the section up more - will look odd on diff screens */
 }
 
 
@@ -246,7 +266,7 @@ h2 {
     color: #d3d3d3;
 }
 .projects{
-    margin-top: -550px; /* Pull the section up more */
+    /* margin-top: -550px; Pull the section up more- will look odd on diff screens */
 }
 
 .project-grid {

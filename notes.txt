@@ -1,11 +1,5 @@
 To Do:
--When clicking the projects button is there a way to 'scroll' to the section 
-instead of automatically jumping there
--About me
-    *-add photo - not sure if i want to change it
-    *-make font bigger
-    *-add socials?
-    *-maybe a skills section between about me and project section?
+-fix project imgs
 -connect with me
     -add icons and links
 -skills
@@ -21,3 +15,13 @@ instead of automatically jumping there
     -make functional if possible
     -round out button
     -make background of text box dark purple when typed in
+
+Fixed:
+-When clicking the projects button is there a way to 'scroll' to the section 
+instead of automatically jumping there
+-About me
+    *-add photo - not sure if i want to change it
+    *-make font bigger
+    *-add socials? - DID NOT
+    *-maybe a skills section between about me and project section?
+-Looks better on laptop now
