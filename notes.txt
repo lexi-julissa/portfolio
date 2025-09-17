@@ -33,3 +33,17 @@ instead of automatically jumping there
     -added html & CSS
     -not functional atm
     -rounded out button
+
+
+    Stashed changes?
+    
+        border: 2px solid #8a2be2; /* Add a border if desired */
+    /* border: 2px solid #8a2be2; Add a border if desired */
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease;*/
+    box-shadow: 0px 0px 20px 10px #8a2be2; /* Purple glow */
+}
+.about-img:hover{
+
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0px 0px 20px 10px rgba(52, 29, 117, 0.8); /* Dark Purple glow */
+    
