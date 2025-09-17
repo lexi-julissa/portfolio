@@ -1,5 +1,8 @@
 To Do:
--fix project imgs
+-projects   
+    -add all skeleton with placeholders
+    -maybe seperate html sites and c# projects
+-fix project videos
 -connect with me
     -add icons and links
 -skills
@@ -7,13 +10,13 @@ To Do:
 -projects   
     -add descriptions
     -add links
-    -add pictures
+    -add pictures/video
+        -make sure to mute video
     -if no link then add popup 'coming soon' message 
     -make into a carousel?
-        -have one centered and the others blurred
+        -have one centered and the others blurred - perhaps
 -contact me 
-    -make functional if possible
-    -round out button
+    -make functional if possible (last, focus on html and CSS first)
     -make background of text box dark purple when typed in
 
 Fixed:
@@ -25,3 +28,8 @@ instead of automatically jumping there
     *-add socials? - DID NOT
     *-maybe a skills section between about me and project section?
 -Looks better on laptop now
+-Spacing between sections looks wayyy better
+-Contact me form 
+    -added html & CSS
+    -not functional atm
+    -rounded out button

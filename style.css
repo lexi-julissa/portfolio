@@ -1,3 +1,4 @@
+
 html, body {
   overflow-x: hidden;
 } /*band aid*/
@@ -11,6 +12,7 @@ html{
     box-sizing: border-box;
     /* font-family: 'Arial', sans-serif; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 body {
@@ -64,6 +66,7 @@ nav ul li a:hover {
     padding: 100px 20px;
     min-height: 100vh;
     text-align: center;
+    
 }
 
 .home {
@@ -124,6 +127,7 @@ nav ul li a:hover {
 .cta-button:hover {
     background-color: #6000ad;
 }
+
 .about-container {
     display: flex;
     align-items: center;
@@ -171,6 +175,17 @@ h2 {
     margin-top: -350px; /* Ensure no extra margin */
     color: #d3d3d3;
 }
+
+#about, #skills {
+    min-height: 50vh; /* each takes half the screen */
+    padding: 80px 20px;
+}
+
+
+section + section {
+    margin-top: 40;
+}
+
 
 .socials h2 {
     font-size: 2rem;
@@ -300,11 +315,11 @@ h2 {
 
 
 form input, form textarea {
-    width: 100%;
+    width: 50%;
     padding: 15px;
     margin: 10px 0;
     background-color: #333;
-    color: #fff;
+    color: #d3bfe7;
     border: none;
     border-radius: 5px;
 }
@@ -316,6 +331,7 @@ form button {
     padding: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 20px;
 }
 
 form button:hover {
