@@ -313,6 +313,20 @@ section + section {
     opacity: 1;
 }  */
 
+.visit-button{
+    background-color: #6f16c1;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    /* font-size: 1.2rem; */
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px; /* Adjust the value for more or less rounding */
+}
+.visit-button:hover{
+background-color:#591da7;
+}
 
 form input, form textarea {
     width: 50%;

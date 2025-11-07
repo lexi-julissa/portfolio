@@ -34,6 +34,13 @@ instead of automatically jumping there
     -not functional atm
     -rounded out button
 
+    -video exmaples
+        -changed width from set px to percetage so looks better on all devices.
+        -added picture placeholder for videos
+    -Vistit buttons
+        -styled
+        -js for pop up - 'feature not working rn'
+
 
     Stashed changes?
     

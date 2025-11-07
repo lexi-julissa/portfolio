@@ -10,3 +10,9 @@ form.addEventListener('submit', function (event) {
 
 });//contact form
 
+const buttons = document.querySelectorAll('.visit-button');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      alert('This feature is not available right now!');
+    });
+  });
