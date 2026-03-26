@@ -2,6 +2,7 @@ To Do:
 -projects   
     -add all skeleton with placeholders
     -maybe seperate html sites and c# projects
+        -can also embed
 -fix project videos
 -connect with me
     -add icons and links
@@ -15,9 +16,19 @@ To Do:
     -if no link then add popup 'coming soon' message 
     -make into a carousel?
         -have one centered and the others blurred - perhaps
+    -add pass generator as well
 -contact me 
     -make functional if possible (last, focus on html and CSS first)
     -make background of text box dark purple when typed in
+-resume section
+    -unsure of where and how I want this displayed.
+    -maybe dropdown to view option? 
+
+-future
+    -last listened to using spotify?? or last watched?
+-about me
+    -want to change description
+
 
 Fixed:
 -When clicking the projects button is there a way to 'scroll' to the section 
@@ -40,6 +51,11 @@ instead of automatically jumping there
     -Vistit buttons
         -styled
         -js for pop up - 'feature not working rn'
+-Looks better on phone now
+-Changed picture
+
+
+
 
 
     Stashed changes?
