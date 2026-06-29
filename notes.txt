@@ -17,6 +17,8 @@ To Do:
     -make into a carousel?
         -have one centered and the others blurred - perhaps
     -add pass generator as well
+    -c#
+        -fix the flashing in the background
 -contact me 
     -make functional if possible (last, focus on html and CSS first)
     -make background of text box dark purple when typed in
@@ -53,6 +55,10 @@ instead of automatically jumping there
         -js for pop up - 'feature not working rn'
 -Looks better on phone now
 -Changed picture
+-Changed role to "tech engineer"
+-Changed description
+-In skills section replaced "wordpress" with "python"
+-Added a c# projcet w/link to the code
 
 
 
