@@ -1,0 +1,59 @@
+/* Global dark theme */
+body {
+    background-color: #1b1b1b;
+    color: #e6e6e6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center container */
+.container {
+    background-color: #222;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0 0 20px rgba(127, 94, 217, 0.25);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: #c59dfd;
+    margin-bottom: 15px;
+}
+
+/* GIF / image styling */
+img {
+    width: 100%;
+    border: 3px solid #7f5ed9;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(127, 94, 217, 0.4);
+}
+
+/* Paragraph text */
+p {
+    color: #a09fa4;
+    margin-top: 12px;
+    font-size: 1rem;
+}
+
+/* Button */
+.btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #7f5ed9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #9a7df0;
+}
