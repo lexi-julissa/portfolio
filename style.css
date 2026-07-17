@@ -352,6 +352,32 @@ form button:hover {
     background-color: #6000ad;
 }
 
+/* --- new additions below --- */
+
+.error-message {
+    display: block;
+    color: #ff6b6b;
+    font-size: 0.85rem;
+    min-height: 1.1em;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.input-error {
+    outline: 2px solid #ff6b6b;
+}
+
+#form-status {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    min-height: 1.2em;
+}
+
+form button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
 footer {
     text-align: center;
     padding: 20px;

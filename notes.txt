@@ -1,35 +1,22 @@
 To Do:
 -projects   
-    -add all skeleton with placeholders
-    -maybe seperate html sites and c# projects
-        -can also embed
--fix project videos
+    -add more projects
+    -display better
+    -make into a carousel?
+        -have a few centered and the others blurred - perhaps
 -connect with me
     -add icons and links
 -skills
-    -find new icons
--projects   
-    -add descriptions
-    -add links
-    -add pictures/video
-        -make sure to mute video
-    -if no link then add popup 'coming soon' message 
-    -make into a carousel?
-        -have one centered and the others blurred - perhaps
-    -add pass generator as well
-    -c#
-        -fix the flashing in the background
--contact me 
-    -make functional if possible (last, focus on html and CSS first)
-    -make background of text box dark purple when typed in
+    -add more skills
 -resume section
     -unsure of where and how I want this displayed.
     -maybe dropdown to view option? 
-
+    -embed? new page? & make downloadble
 -future
     -last listened to using spotify?? or last watched?
--about me
-    -want to change description
+    -maybe blog? 
+    -add certs?
+
 
 
 Fixed:
@@ -46,7 +33,6 @@ instead of automatically jumping there
     -added html & CSS
     -not functional atm
     -rounded out button
-
     -video exmaples
         -changed width from set px to percetage so looks better on all devices.
         -added picture placeholder for videos
@@ -62,11 +48,13 @@ instead of automatically jumping there
 -Cleaned code up a bit 6/30/26
 -Added more C# projects 6/30/26
 -Added C# demo pages along with css 7/2/26
+-Added python prject & made contact me form functional
 
 
 
 
-    Stashed changes?
+
+Stashed changes?
     
         border: 2px solid #8a2be2; /* Add a border if desired */
     /* border: 2px solid #8a2be2; Add a border if desired */

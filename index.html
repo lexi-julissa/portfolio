@@ -126,21 +126,14 @@
                 <button class="visit-button visit-button-null">Visit Site</button> <button class="visit-button visit-button-null">View Code</button>
             </div>
             <div class="project-card">
-                <h3>To Do List</h3><br>
-                <img width = "90%" src="./images/projectScreenshots/tdl_SS.png" alt="coming soon">
-                <!-- <div class="video-container">
-                    <video autoplay muted loop width="90%">
-                        <source src="images/project-preview-vids/Untitled video - Made with Clipchamp.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video><br>
-                </div> -->
-                    <p><i>To-Do List App</i> is a simple and intuitive task management tool designed to help users stay organized.
-                        Built with HTML, CSS, and JavaScript, the app allows users to add, edit, and delete tasks seamlessly.
-                        With a clean and responsive design, it provides an efficient way to track daily tasks and boost 
-                        productivity.
-                    </p><br>
-                
-                <button class="visit-button visit-button-null">Visit Site</button> <button class="visit-button visit-button-null">View Code</button>
+                <h3>Stock Visualizer Dashboard</h3><br>
+                <img width = "90%" src="./images/projectScreenshots/svd_SS.png" alt="Stock Visualizer Dashboard">
+                <p>A Python/Dash web app for tracking and comparing stock performance over custom date ranges, with live data 
+                    pulled from Yahoo Finance. Users can look up multiple tickers side by side and see key stats — current price,
+                     % change, and period high/low — update instantly alongside an interactive price chart. Built with Dash, Pandas,
+                      and yfinance, with a custom-styled UI and graceful handling for invalid ticker inputs.</p><br>
+                <button class="visit-button" onclick="window.open('./stockVisualizerDashboard.html', '_blank')">Watch Demo</button> 
+                <button class="visit-button" onclick="window.open('https://github.com/lexi-julissa/stock-dashboard', '_blank')" >View Code</button>
             </div>
              <div class="project-card">
                 <h3>Employee Payroll System (C#)</h3><br>
@@ -171,16 +164,22 @@
         </div>
     </section>
 
-    <section id="contact" class="section contact">
-        <h2>Contact Me</h2>
-        <p><i>This feature is coming soon!</i></p>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <br><button type="submit">Send Message</button>
-        </form>
-    </section>
+ <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" novalidate>
+        <input type="text" name="name" placeholder="Your Name">
+        <span class="error-message" id="name-error"></span>
+
+        <input type="email" name="email" placeholder="Your Email">
+        <span class="error-message" id="email-error"></span>
+
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <span class="error-message" id="message-error"></span>
+
+        <br><button type="submit">Send Message</button>
+        <p id="form-status"></p>
+    </form>
+</section>
 
 
  <!--   PEWVIEW & DOWNLOAD RESUME
